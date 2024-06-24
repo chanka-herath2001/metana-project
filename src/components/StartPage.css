@@ -1,0 +1,102 @@
+.start-page {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+    position: relative;
+  }
+  
+  .left-section {
+    width: 50%;
+    padding-top: 170px; /* Push everything down */
+    padding-left: 100px;
+  }
+  
+  .logo {
+    width: 150px;
+    position: absolute;
+    top: 40px; /* Position the logo at the top left */
+    left: 40px;
+  }
+  
+  h1 {
+    font-size: 3.0em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    line-height: 1.2;
+  }
+  
+  p {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .start-button {
+    background-color: #c3b2fa;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  
+  .press-enter {
+    display: block;
+    margin-top: 10px;
+    font-size: 1em;
+  }
+  
+  .people-count {
+    margin-top: 20px;
+    font-size: 1em;
+  }
+  
+  .right-section {
+    text-align: center;
+    width: 50%;
+    padding-top: 170px; /* Push everything down */
+  }
+  
+  .course-report {
+    font-size: 1.5em;
+    color: orange;
+  }
+  
+  .rating {
+    font-size: 6em;
+    color: green;
+    font-weight: bold;
+    margin: 20px 0;
+  }
+  
+  .companies {
+    margin-top: 30px;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  .company-logos {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+  }
+  
+  .company-logos img {
+    width: 80px;
+    height: auto;
+  }
+  

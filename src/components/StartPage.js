@@ -1,4 +1,3 @@
-// src/components/StartPage.js
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import "./StartPage.css";
@@ -27,7 +26,7 @@ const StartPage = () => {
           Start Your Journey
         </button>
         <span className="press-enter">press Enter ↵</span>
-        <p className="people-count">👥 167 people have filled this out</p>
+        <p className="people-count">👥 170 people have filled this out</p>
       </div>
       <div className="right-section">
         <p className="course-report">Rated on Course Report</p>
@@ -37,7 +36,7 @@ const StartPage = () => {
           <img src="/images/google.png" alt="Google" />
           <img src="/images/ibm.png" alt="IBM" />
           <img src="/images/nike.png" alt="Nike" />
-          <img src="/images/eay.png" alt="eBay" />
+          <img src="/images/ebay.png" alt="eBay" />
         </div>
       </div>
     </div>
