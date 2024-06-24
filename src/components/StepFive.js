@@ -64,9 +64,7 @@ const StepFive = () => {
               </button>
             ))}
           </div>
-          <button className="ok-button" onClick={navigateToStepSix}>
-            OK
-          </button>
+          <button className="ok-button">OK</button>
         </div>
       </div>
     </div>
